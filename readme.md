@@ -24,6 +24,7 @@
     </li>
     <li><a href="#results">Results</a></li>
     <li><a href="#conclusions">Conclusions</a></li>
+    <li><a href="#future-work">Future Work</a></li>
     <li><a href="#references">References</a></li>
   </ol>
 </details>
@@ -72,30 +73,76 @@ Based on the content taught in this course, I will attempt to depict the co-occu
 # **Getting Start**
 
 ## **Prerequisites**
+You may use Google Colab and no modules should be installed prerequisite.
 ## **Project Tree**
 
+* Collocation 
+  * the_little_prince_ch / _en: The Little Prince corpus
+  * Final_CH / _EN : Find collocation words, then plot and analyze
+* get_fMRI_data
+  * get_CH/EN_fMRI : Download fMRI data from openneuro dataset and calculate and average data then save as a zip file
+* analyzing_fMRI_data 
+  * fMRI_CH / _EN : Use the merged data acquired from  _get_CH/EN_fMRI_ then perform some analysis
+```
+├── readme.md
+├── analyzing_fMRI_data 
+├── Collocation
+├── get_fMRI_data
+└── Project_final_brainhack.pptx
+```
 # **Results**
 1.Collocation of the context
 
-<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_up.png alt="Up" width="40%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_down.png alt="Down" width="40%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_infrontof.png alt="In Front of" width="40%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_behind.png alt="Behind" width="40%" height="100%"/>
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_up.png alt="Up" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_down.png alt="Down" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_infrontof.png alt="In Front of" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_behind.png alt="Behind" width="50%" height="100%"/>
 
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_up.png alt="Up" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_down.png alt="Down" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_infrontof.png alt="In Front of" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_behind.png alt="Behind" width="50%" height="100%"/>
 
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_in_01.png alt="in_01" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_in_02.png alt="in_02" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_in_03.png alt="in_03" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_outside.png alt="Outside" width="50%" height="100%"/>
+
+Note that 「裡」、「內」、「中」all mean "in" in English
+
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_in.png alt="in_03" width="50%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_outside.png alt="Outside" width="50%" height="100%"/>
+
+2.Frequency of the spatial term
+
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_freq_all.png alt="EN_freq" width="100%" height="100%"/>
+
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/CH_freq_all.png alt="CH_freq" width="100%" height="100%"/>
+
+\
+3. Attempt with fMRI data <br>
+Below are the 1st ROI region of the average fMRI data of 9 English and Chinese participants applied with atlas masker,
+you may find more fMRI analysis attempts in ``analyzing_fMRI_data\fMRI_EN`` and ``analyzing_fMRI_data\fMRI_CH``
+
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/brain_EN.png alt="EN_brain" width="100%" height="100%"/>
+
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/brain_CH.png alt="CH_brain" width="100%" height="100%"/>
 
 # **Conclusions**
-* Tools I learned From the Project
-    1. Python scripting
-    2. Use Python to assist in analyzing spatial terms in text and corpus.
-    3. Extract specific data from open brain database.
-    4. Understand the different categories between languages
-* The relationship between various spatial terms
+1. Tools I learned from the project
+    * Python scripting
+    * Use Python to analyze spatial terms in text and corpus.
+    * Extract specific data from open brain database.
+    * Understand the different categories between languages
+   <br>
+2. The relationship between various spatial terms
+    * Spatial terms in EN version refer to some abstract concepts
+    * The same object in different languages have preference in using spatial terms
 
-* The value of data analysis in Chinese.
-<pre>
+3. Data analysis of Chinese corpus
+    * Should be careful with Chinese segmentation, clean the data manually if needed
+4. The connection between literatures, programming, and even neuroscience.
+# **Future Work**
+* Concern
+  * The characteristics of fMRI (t_r=2) are not suitable for studying short-term differences in the brain (the lasting time of a spatial term may be about 0.2 sec)
+* Next Steps
+  * Find the corresponding spatial terms in the database
+  * Compare the differences in brain responses to these spatial terms between Chinese and English language users
+* Discussion
+  * In order to correspond to the brain database, the accuracy of the co-location plot decrease
+  * How to infer results from corpus data to brain data?
 
-</pre>
-* The connection between literatures, programming, and even neuroscience.
-<pre>
-</pre>
+
 # References
 1.	Whorf, Benjamin Lee (1956) [1936?]. “An American Indian model of the universe”. In Carroll, J. B. (ed.). Language, Thought, and Reality: Selected Writings of Benjamin Lee Whorf. Cambridge, Massachusetts: Technology Press of Massachusetts Institute of Technology. pp. 57–64.
 2.	Boroditsky L., Gaby, A. (2010). “Remembrances of times East: Absolute Spatial Representations of time in an Australian Aboriginal Community.” Sci.
