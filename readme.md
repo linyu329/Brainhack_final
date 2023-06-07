@@ -1,7 +1,32 @@
 # **Exploring the Differences of Spatial Terms in Chinese and English Language Networks.**
 # 不同文化中的語言網路在空間詞中差異探索
 ### By Lin Yu-Hsuan
-
+<!-- TABLE OF CONTENTS -->
+<details>
+  <summary>Content</summary>
+  <ol>
+    <li>
+      <a href="#project-description">Project Description</a>
+      <ul>
+        <li><a href="#background">Background</a></li>
+        <li><a href="#introduction">Introduction</a></li>
+        <li><a href="#main-objectives">Main Objectives</a></li>
+        <li><a href="#data">Data</a></li>
+        <li><a href="#project-deliverables">Project Deliverables</a></li>
+      </ul>
+    </li>
+    <li>
+      <a href="#getting-start">Getting Start</a>
+      <ul>
+        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#project-tree">Project Tree</a></li>
+      </ul>
+    </li>
+    <li><a href="#results">Results</a></li>
+    <li><a href="#conclusions">Conclusions</a></li>
+    <li><a href="#references">References</a></li>
+  </ol>
+</details>
 
 
 # **Project Description**
@@ -23,10 +48,10 @@ Another research on the spatial differences between Chinese and English has foun
 Unfortunately, current research on spatial differences in cognition mostly focuses on differences in language presentation. We cannot rule out the possibility that language has not developed alternative ways of expression. Whether these differences are reflected in more fundamental brain representations remains an unexplored territory. Therefore, this article aims to present the differences in the use of spatial terms in Chinese and English texts through text analysis, and further investigate whether these linguistic differences are reflected in brain representations.
 
 ## **Main Objectives**
-1. - [x] Investigate the collocation of various spatial terms using the bilingual text of "The Little Prince."
-2. - [x] By examining the differences in the frequency of spatial terms to explore the variations in how Chinese and English texts represent space.   
-3. - [x] Examining the differences in the collocation patterns of spatial terms between Chinese and English.
-4. - [ ] Matching with the fMRI Brain Database. 
+1. &nbsp;&nbsp;✅ Investigate the collocation of various spatial terms using the bilingual text of "The Little Prince."
+2. &nbsp;&nbsp;✅ By examining the differences in the frequency of spatial terms to explore the variations in how Chinese and English texts represent space.   
+3. &nbsp;&nbsp;✅ Examining the differences in the collocation patterns of spatial terms between Chinese and English.
+4. &nbsp;&nbsp;⬜ Matching with the fMRI Brain Database. 
 
 ## **Data**
 In this research, two main methodologies are involved. Firstly, a case study is conducted using the texts of "The Little Prince" in both Chinese and English versions, aiming to understand whether there are different ways of expressing spatial concepts in these two languages. Secondly, an open brain database available on the internet is utilized to study brain representations, with the goal of investigating whether these spatial expression patterns impact our brain representations.
@@ -38,17 +63,23 @@ Furthermore, a publicly available fMRI database on the internet contains an arti
 Based on the content taught in this course, I will attempt to depict the co-occurrence of various spatial terms in different languages and illustrate the corresponding brain activation patterns when these spatial terms are encountered. The source of brain imaging data is open databases within OpenNeuro. The detail of the braindata is well reported in <https://openneuro.org/datasets/ds003643>
 
 
-### **Project Deliverables**
- - [x] Text collocation scripts & pics
- - [x] Get fMRI database
- - [x] Presentation slides
- - [x] Project report
+## **Project Deliverables**
+  ✅ Text collocation scripts & pics\
+  ✅ Get fMRI database\
+  ✅ Presentation slides\
+  ✅ Project report
+
+# **Getting Start**
+
+## **Prerequisites**
+## **Project Tree**
+
 # **Results**
 1.Collocation of the context
 
-![Alt Text](https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_up.png)
+<img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_up.png alt="Up" width="40%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_down.png alt="Down" width="40%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_infrontof.png alt="In Front of" width="40%" height="100%"/><img src=https://github.com/linyu329/Brainhack_final/blob/main/readme.pics/EN_behind.png alt="Behind" width="40%" height="100%"/>
 
-    (圖片)
+
 
 # **Conclusions**
 * Tools I learned From the Project
