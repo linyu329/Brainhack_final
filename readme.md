@@ -1,6 +1,6 @@
 # **Exploring the Differences of Spatial Terms in Chinese and English Language Networks.**
 # 不同文化中的語言網路在空間詞中差異探索
-### By Lin Yu-Hsuan
+### By Lin Yu-Hsuan, BrainHack School 2023
 <!-- TABLE OF CONTENTS -->
 <details>
   <summary>Content</summary>
@@ -73,21 +73,23 @@ Based on the content taught in this course, I will attempt to depict the co-occu
 # **Getting Start**
 
 ## **Prerequisites**
-You may use Google Colab and no modules should be installed prerequisite.
+You may use Google Colab to run the scripts and no modules should be installed.
 ## **Project Tree**
-
-* Collocation 
-  * the_little_prince_ch / _en: The Little Prince corpus
-  * Final_CH / _EN : Find collocation words, then plot and analyze
-* get_fMRI_data
-  * get_CH/EN_fMRI : Download fMRI data from openneuro dataset and calculate and average data then save as a zip file
-* analyzing_fMRI_data 
-  * fMRI_CH / _EN : Use the merged data acquired from  _get_CH/EN_fMRI_ then perform some analysis
+You may find more detailed description and method in each script
 ```
 ├── readme.md
 ├── analyzing_fMRI_data 
+|   ├── fMRI_CH               ==>   Use the merged data acquired from get_CH_fMRI then perform some analysis
+|   └── fMRI_EN               ==>   Use the merged data acquired from get_EN_fMRI then perform some analysis
 ├── Collocation
+|   ├── the_little_prince_ch  ==>   The Little Prince Chinese corpus
+|   ├── the_little_prince_en  ==>   The Little Prince English corpus
+|   ├── Final_CH              ==>   Find collocation words, then plot and analyze
+|   └── Final_EN              ==>   Find collocation words, then plot and analyze
 ├── get_fMRI_data
+|   ├── get_CH_fMRI           ==>   Download fMRI data from openneuro dataset and calculate and average data then save as a zip file (Chinese participants)
+|   └── get_EN_fMRI           ==>   Download fMRI data from openneuro dataset and calculate and average data then save as a zip file (English participants)
+|
 └── Project_final_brainhack.pptx
 ```
 # **Results**
